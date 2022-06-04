@@ -1,6 +1,6 @@
-/* Take the page as a whole and apply this... */
 *{
-    margin:0; padding:0; 
+    margin: 0;
+    padding: 0; 
     font-family:Tahoma, Verdana, sans-serif
 }
 
@@ -21,25 +21,34 @@ header h1{
     font-size: 40px;
 }
 
-/*  .card = (class)card */
 .card{
     width: 300px;
     height: auto;
-    /* border: thickness type colour */
     border: 1px solid gray;
     border-radius: 10px;
     text-align: center;
     padding: 20px;
     background-color: white;
     color: midnightblue;
-    /* box-shadow: x-value negative-y-value opacity blur color(default same as text)(currentColor also does this)*/
-    /* x -y blur size colour is what it actually seems to be imo */
     box-shadow: 5px 5px 5px 5px lightgray;
 }
 
 .card img{
     margin: 10px;
     min-height: 300px; 
-    /* given a min height - it will auto the width */
     border-radius: 30px;
+}
+
+h2, h3, h4, h5, h6{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+#princess-list{
+    list-style-type: none;
+}
+
+span{
+    font-size: 1.5em;
+    color: #b48ce0;
 }
