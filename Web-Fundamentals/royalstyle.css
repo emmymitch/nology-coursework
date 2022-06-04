@@ -15,9 +15,31 @@ header{
     height: 80px;
     padding: 40px;
     color: rgb(94, 92, 89);
-    /* border: thickness type colour */
 }
 
 header h1{
     font-size: 40px;
+}
+
+/*  .card = (class)card */
+.card{
+    width: 300px;
+    height: auto;
+    /* border: thickness type colour */
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: midnightblue;
+    /* box-shadow: x-value negative-y-value opacity blur color(default same as text)(currentColor also does this)*/
+    /* x -y blur size colour is what it actually seems to be imo */
+    box-shadow: 5px 5px 5px 5px lightgray;
+}
+
+.card img{
+    margin: 10px;
+    min-height: 300px; 
+    /* given a min height - it will auto the width */
+    border-radius: 30px;
 }
