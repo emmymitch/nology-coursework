@@ -26,6 +26,27 @@ header h1{
     font-size: 40px;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#top-row{
+    display: flex;
+    justify-content: center;
+}
+
+#middle-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+#bottom-row{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .card{
     width: 300px;
     height: auto;
