@@ -1,4 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Noto+Sans+JP&family=Varela+Round&display=swap");
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Japanese", sans-serif;
+  background-color: #fefdf8;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  color: #394166;
+}
+
+h2 {
+  font-family: "Varela Round", sans-serif;
+  color: #1cb8f1;
+}
+
+p {
+  color: #394166;
+  background-color: #fffcdd;
 }
