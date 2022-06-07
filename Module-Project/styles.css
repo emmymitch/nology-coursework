@@ -10,18 +10,3 @@
 a:link, a:visited {
   text-decoration: none;
 }
-
-h1 {
-  font-family: "Dosis", sans-serif;
-  color: #394166;
-}
-
-h2 {
-  font-family: "Varela Round", sans-serif;
-  color: #1cb8f1;
-}
-
-p {
-  color: #394166;
-  background-color: #fffcdd;
-}
