@@ -18,9 +18,87 @@ $color-cream: rgb(255 252 221);
     padding: 0;
     box-sizing: border-box;
     font-family: $font-body;
+    color: $color-primary;
     background-color: $color-white;
+    // background-color: red;
+}
+
+a{
+    font-family: $font-body;
 }
 
 a:link, a:visited{
     text-decoration: none;
+}
+
+#logo{
+    font-family: $font-logo;
+    font-size: 50px;
+    width: 50%;
+}
+
+.button-inverse{
+    display: block;
+    color: $color-primary;
+    border: 2px solid $color-primary;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.button{
+    display: block;
+    background-color: $color-primary;
+    color: $color-white;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+h1{
+    color: $color-secondary;
+    font-family: $font-title;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+#mockup{
+    // check later when flex done
+    box-shadow: 0px 0px 40px 20px $color-cream;
+    width: auto;
+    border-radius: 1px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3{
+    color: $color-secondary;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h4{
+    font-size: 25px;
+}
+
+span{
+    font-weight: bold;
+}
+
+#italics{
+    font-style: italic;
+    font-weight: lighter;
+}
+
+footer{
+    div{
+        background-color: $color-cream;
+        display: block;
+        text-align: center;
+    }
 }
