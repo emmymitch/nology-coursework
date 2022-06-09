@@ -15,6 +15,12 @@ function isNumberPositive(num){
 
 //2. Write a function that takes a number of days and converts it into an age.
 
+function convertDaysToAge(days){
+    const age = Math.floor(days/365.25);
+    console.log(`${days} days is ${age} years of age`);
+}
+
+
 //3. Write a function that takes three numbers and returns the largest of the three numbers.
 
 //4. Write a function that takes an array of names and returns the last name from the array of names.
