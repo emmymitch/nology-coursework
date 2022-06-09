@@ -46,3 +46,20 @@ function getFinalName(nameArray){
 
 //5. Write a function that takes an array of numbers and returns true if all of the numbers are positive. 
 //   It should return false if there are one or more negative numbers in the array.
+
+function isAllNumbersPositive(numberArray){
+    for (let i = 0; i < numberArray.length; i++){
+        if (numberArray[i] < 0){
+            console.log("All Positive: False");
+            return false;
+        } else if (i == numberArray.length - 1){
+            //If it gets to the end of the array without finding a negative, each array element is therefore positive
+            console.log("All Positive: True");
+            return true;
+        } else if (numberArray[i] == 0){
+            console.log("0 is neither positive or negative, and hence will be skipped.");
+            continue;
+        }
+    }
+}
+
