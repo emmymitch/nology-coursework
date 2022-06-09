@@ -23,6 +23,20 @@ function convertDaysToAge(days){
 
 //3. Write a function that takes three numbers and returns the largest of the three numbers.
 
+function getLargestNumber(num1, num2, num3){
+    if (num1>=num2 && num1>=num3){ //Having >= accounts for if two or three of the numbers are identical
+        console.log(`The largest number is ${num1}.`);
+        return num1;
+    } else if (num2>=num1 && num2>=num3){
+        console.log(`The largest number is ${num2}.`);
+        return num2;
+    } else if (num3>=num1 && num3>=num2){
+        console.log(`The largest number is ${num3}.`);
+        return num3;
+    }
+}
+
+
 //4. Write a function that takes an array of names and returns the last name from the array of names.
 
 //5. Write a function that takes an array of numbers and returns true if all of the numbers are positive. 
