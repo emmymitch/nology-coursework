@@ -45,7 +45,7 @@ body{
         justify-content: space-around;
         align-items: center;
         text-align: center;
-        width:100%;
+        width: 100%;
         height: 25%;
         padding: 10px;
     }
@@ -55,6 +55,14 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
 
@@ -74,23 +82,23 @@ a:link, a:visited{
 }
 
 .button-inverse{ //top login button
-    display: block;
+    //display: block;
     color: $color-primary;
     border: 2px solid $color-primary;
-    //padding: 15px;
     padding: 15px 30px;
     text-align: center;
     border-radius: 5px;
 }
 
 .button{
-    display: block;
+    //display: block;
     background-color: $color-primary;
     color: $color-white;
-    padding: 15px;
+    padding: 15px 30px;
     text-align: center;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 5px;
+    width: 250px;
 }
 
 
@@ -110,15 +118,30 @@ h1{
     margin: 20px;
 }
 
-h2{
-    font-size: 30px;
-    font-weight: bold;
-}
+#intro-dadvice{
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-h3{
-    color: $color-secondary;
-    font-weight: bold;
-    font-size: 20px;
+    h2{
+        font-size: 26px;
+        font-weight: bold;
+        padding: 20px;
+    }
+
+    h3{
+        color: $color-secondary;
+        font-weight: bold;
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    p{
+        padding: 20px;
+        padding-bottom: 40px;
+    }
+    
 }
 
 h4{
