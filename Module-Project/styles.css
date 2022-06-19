@@ -4,8 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Noto Sans Japanese", sans-serif;
-  color: #394166;
-  background-color: #fefdf8;
 }
 
 @media screen and (min-width: 768px) {
@@ -23,6 +21,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #fefdf8;
+  color: #394166;
 }
 body nav {
   display: flex;
@@ -60,17 +60,34 @@ a:link, a:visited {
   font-family: "Dosis", Verdana, sans-serif;
   font-size: 50px;
   text-align: center;
+  color: #394166;
+}
+#logo-text a:link {
+  color: #394166;
+}
+#logo-text a:visited {
+  text-decoration: none;
+  color: #394166;
 }
 
 .button-inverse {
+  display: block;
   color: #394166;
   border: 2px solid #394166;
   padding: 15px 30px;
   text-align: center;
   border-radius: 5px;
 }
+.button-inverse a:link {
+  color: #394166;
+}
+.button-inverse a:visited {
+  text-decoration: none;
+  color: #394166;
+}
 
 .button {
+  display: block;
   background-color: #394166;
   color: #fefdf8;
   padding: 15px 30px;
@@ -78,6 +95,17 @@ a:link, a:visited {
   font-weight: bold;
   border-radius: 5px;
   width: 250px;
+}
+.button a:link {
+  color: #fefdf8;
+}
+.button a:visited {
+  text-decoration: none;
+  color: #fefdf8;
+}
+
+.button:visited {
+  color: #fefdf8;
 }
 
 h1 {
