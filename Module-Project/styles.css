@@ -8,27 +8,61 @@
   background-color: #fefdf8;
 }
 
+@media screen and (min-width: 768px) {
+  main {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 991px) {
+  main {
+    width: 500px;
+  }
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 25%;
+  padding: 10px;
+}
+body header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+}
+
 a {
   font-family: "Noto Sans Japanese", sans-serif;
+  text-align: center;
 }
 
 a:link, a:visited {
   text-decoration: none;
 }
 
-#logo {
+#logo-text {
   font-family: "Dosis", Verdana, sans-serif;
   font-size: 50px;
-  width: 50%;
+  text-align: center;
 }
 
 .button-inverse {
   display: block;
   color: #394166;
   border: 2px solid #394166;
-  padding: 15px;
+  padding: 15px 30px;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .button {
@@ -46,12 +80,13 @@ h1 {
   font-family: "Varela Round", Tahoma, sans-serif;
   font-weight: 900;
   font-size: 35px;
+  text-align: center;
+  margin: 20px;
 }
 
 #mockup {
-  box-shadow: 0px 0px 40px 20px #fffcdd;
+  box-shadow: 0px 0px 100px -10px #fffcdd;
   width: auto;
-  border-radius: 1px;
 }
 
 h2 {
