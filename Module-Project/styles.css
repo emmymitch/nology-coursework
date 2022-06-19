@@ -160,17 +160,22 @@ h1 {
 #description-picture h4 {
   font-size: 25px;
 }
-#description-picture #text-pic-1, #description-picture #text-pic-2, #description-picture #text-pic-3, #description-picture #text-pic-4 {
+#description-picture #text-pic-set {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: center;
+}
+#description-picture #text-pic-set #text-pic-1, #description-picture #text-pic-set #text-pic-2, #description-picture #text-pic-set #text-pic-3, #description-picture #text-pic-set #text-pic-4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#description-picture #text-pic-1 p, #description-picture #text-pic-2 p, #description-picture #text-pic-3 p, #description-picture #text-pic-4 p {
-  width: 66.6%;
+#description-picture #text-pic-set #text-pic-1 p, #description-picture #text-pic-set #text-pic-2 p, #description-picture #text-pic-set #text-pic-3 p, #description-picture #text-pic-set #text-pic-4 p {
   text-align: left;
   font-size: 17px;
 }
-#description-picture #text-pic-1 p, #description-picture #text-pic-1 img, #description-picture #text-pic-2 p, #description-picture #text-pic-2 img, #description-picture #text-pic-3 p, #description-picture #text-pic-3 img, #description-picture #text-pic-4 p, #description-picture #text-pic-4 img {
+#description-picture #text-pic-set #text-pic-1 p, #description-picture #text-pic-set #text-pic-1 img, #description-picture #text-pic-set #text-pic-2 p, #description-picture #text-pic-set #text-pic-2 img, #description-picture #text-pic-set #text-pic-3 p, #description-picture #text-pic-set #text-pic-3 img, #description-picture #text-pic-set #text-pic-4 p, #description-picture #text-pic-set #text-pic-4 img {
   padding: 0px 10px;
 }
 
