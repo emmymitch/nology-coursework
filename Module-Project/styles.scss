@@ -65,29 +65,39 @@ body{
         align-items: center;
         text-align: center;
     }
-}
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
 
-a{
-    font-family: $font-body;
-    text-align: center;
-}
+        background-color: $color-cream;
 
-a:link, a:visited{
-    text-decoration: none;
+        div{
+            color:$color-primary;
+            text-align: center;
+            font-weight: bold;
+            padding: 20px;
+
+            a:link, a:visited{
+                color:$color-primary;
+                text-decoration: none;
+            }
+        }
+    }
 }
 
 #logo-text{
     font-family: $font-logo;
     font-size: 50px;
     text-align: center;
+    text-decoration: none;
     color:$color-primary;
 
-    a:link{
+    a:link, a:visited{
         color:$color-primary;
-    }
-    a:visited{
-        text-decoration: none;
-        color:$color-primary;
+        // text-decoration: none;
     }
 }
 
@@ -99,12 +109,9 @@ a:link, a:visited{
     text-align: center;
     border-radius: 5px;
 
-    a:link{
+    a:link, a:visited{
         color:$color-primary;
-    }
-    a:visited{
         text-decoration: none;
-        color:$color-primary;
     }
 }
 
@@ -120,19 +127,11 @@ a:link, a:visited{
     margin-bottom: 40px;
     margin-top: 20px;
 
-    a:link{
+    a:link, a:visited{
         color:$color-white;
-    }
-    a:visited{
         text-decoration: none;
-        color:$color-white;
     }
 }
-
-.button:visited{
-    color:$color-white;
-}
-
 
 h1{
     color: $color-secondary;
@@ -190,11 +189,11 @@ h1{
 
     #text-pic-1, #text-pic-2, #text-pic-3, #text-pic-4{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
 
         p{
-            width: 66%;
+            width: 66.6%;
             text-align: left;
             font-size: 17px;
         }
@@ -214,10 +213,3 @@ span{
     font-weight: lighter;
 }
 
-footer{
-    div{
-        background-color: $color-cream;
-        display: block;
-        text-align: center;
-    }
-}

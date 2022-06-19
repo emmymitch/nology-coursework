@@ -46,13 +46,21 @@ body main {
   align-items: center;
   text-align: center;
 }
-
-a {
-  font-family: "Noto Sans Japanese", sans-serif;
-  text-align: center;
+body footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: #fffcdd;
 }
-
-a:link, a:visited {
+body footer div {
+  color: #394166;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+body footer div a:link, body footer div a:visited {
+  color: #394166;
   text-decoration: none;
 }
 
@@ -60,13 +68,10 @@ a:link, a:visited {
   font-family: "Dosis", Verdana, sans-serif;
   font-size: 50px;
   text-align: center;
-  color: #394166;
-}
-#logo-text a:link {
-  color: #394166;
-}
-#logo-text a:visited {
   text-decoration: none;
+  color: #394166;
+}
+#logo-text a:link, #logo-text a:visited {
   color: #394166;
 }
 
@@ -78,12 +83,9 @@ a:link, a:visited {
   text-align: center;
   border-radius: 5px;
 }
-.button-inverse a:link {
+.button-inverse a:link, .button-inverse a:visited {
   color: #394166;
-}
-.button-inverse a:visited {
   text-decoration: none;
-  color: #394166;
 }
 
 .button {
@@ -98,16 +100,9 @@ a:link, a:visited {
   margin-bottom: 40px;
   margin-top: 20px;
 }
-.button a:link {
+.button a:link, .button a:visited {
   color: #fefdf8;
-}
-.button a:visited {
   text-decoration: none;
-  color: #fefdf8;
-}
-
-.button:visited {
-  color: #fefdf8;
 }
 
 h1 {
@@ -160,11 +155,11 @@ h1 {
 }
 #description-picture #text-pic-1, #description-picture #text-pic-2, #description-picture #text-pic-3, #description-picture #text-pic-4 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 #description-picture #text-pic-1 p, #description-picture #text-pic-2 p, #description-picture #text-pic-3 p, #description-picture #text-pic-4 p {
-  width: 66%;
+  width: 66.6%;
   text-align: left;
   font-size: 17px;
 }
@@ -179,10 +174,4 @@ span {
 #italics {
   font-style: italic;
   font-weight: lighter;
-}
-
-footer div {
-  background-color: #fffcdd;
-  display: block;
-  text-align: center;
 }
