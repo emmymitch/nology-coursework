@@ -95,6 +95,8 @@ a:link, a:visited {
   font-weight: bold;
   border-radius: 5px;
   width: 250px;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 .button a:link {
   color: #fefdf8;
@@ -146,8 +148,28 @@ h1 {
   padding-bottom: 40px;
 }
 
-h4 {
+#description-picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 10px;
+}
+#description-picture h4 {
   font-size: 25px;
+}
+#description-picture #text-pic-1, #description-picture #text-pic-2, #description-picture #text-pic-3, #description-picture #text-pic-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#description-picture #text-pic-1 p, #description-picture #text-pic-2 p, #description-picture #text-pic-3 p, #description-picture #text-pic-4 p {
+  width: 66%;
+  text-align: left;
+  font-size: 17px;
+}
+#description-picture #text-pic-1 p, #description-picture #text-pic-1 img, #description-picture #text-pic-2 p, #description-picture #text-pic-2 img, #description-picture #text-pic-3 p, #description-picture #text-pic-3 img, #description-picture #text-pic-4 p, #description-picture #text-pic-4 img {
+  padding: 0px 10px;
 }
 
 span {
