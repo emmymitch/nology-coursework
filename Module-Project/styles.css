@@ -38,7 +38,6 @@ body header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
 }
 
 a {
@@ -85,8 +84,10 @@ h1 {
 }
 
 #mockup {
-  box-shadow: 0px 0px 100px -10px #fffcdd;
+  box-shadow: 0px 0px 30px 10px #fffcdd;
   width: auto;
+  border-radius: 100px;
+  margin: 20px;
 }
 
 h2 {
