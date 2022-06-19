@@ -8,12 +8,12 @@
 
 @media screen and (min-width: 768px) {
   main {
-    width: 300px;
+    width: 400px;
   }
 }
 @media screen and (min-width: 991px) {
   main {
-    width: 500px;
+    width: 600px;
   }
 }
 body {
@@ -32,6 +32,12 @@ body nav {
   width: 100%;
   height: 25%;
   padding: 10px;
+  margin: 15px 0px;
+}
+body nav #logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body header {
   display: flex;
@@ -70,6 +76,7 @@ body footer div a:link, body footer div a:visited {
   text-align: center;
   text-decoration: none;
   color: #394166;
+  padding: 10px;
 }
 #logo-text a:link, #logo-text a:visited {
   color: #394166;
