@@ -1,0 +1,54 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "left nav"
+        "left main"
+        "footer footer";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
+    gap: 0.5em;
+
+    height: 100vh;
+    margin: 0.5em;
+}
+
+header{
+    grid-area: header;
+    background-color: #318ae4;    
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    grid-area: nav;
+    background-color: #a6bdd1;
+}
+
+main{
+    grid-area: main;
+    background-color: #eeeeee;
+}
+
+aside{
+    grid-area: left;
+    background-color: #a2be9a;
+}
+
+footer{
+    grid-area: footer;
+    background-color: crimson;
+}

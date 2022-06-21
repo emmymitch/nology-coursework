@@ -1,0 +1,201 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    margin: 30px;
+}
+
+h1{
+    font-weight: bold;
+}
+
+h2{
+    font-weight: lighter;
+}
+
+
+/* main{
+    padding: 10px;
+} */
+
+#pictures * {
+    width: 95vw;
+    height: 5rem;
+    /* margin: 5px 10px; */
+}
+
+#pic1{
+    /* display: inline-block;
+    background-color: red; */
+    background-image: url("./images/gallery/carina-nebula.jpg");
+}
+
+#pic2{
+    background-image: url("./images/gallery/crab-nebula.png");
+}
+
+#pic3{
+    background-image: url("./images/gallery/lilac.jpg");
+}
+
+#pic4{
+    background-image: url("./images/gallery/m82-supernova.jpg");
+}
+
+#pic5{
+    background-image: url("./images/gallery/sea-swirl.jpg");
+}
+
+#pic6{
+    background-image: url("./images/gallery/swirl.jpg");
+}
+
+#pic7{
+    background-image: url("./images/gallery/whirlpool.jpg");
+}
+
+@media screen and (min-width:768px){
+    #pictures{
+        width:100vw;
+        display: grid;
+        grid-template-columns: 30% 15% 15% 40%;
+        grid-template-rows: 27% 20% 20% 33%;
+        /* padding: 0 20px; */
+        gap: 0.25em;
+    }
+
+    #pic1{
+        /* grid-area: pic1; */
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    #pic2{
+        /* grid-area: pic2; */
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    #pic3{
+        /* grid-area: pic3; */
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+
+    #pic4{
+        /* grid-area: pic4; */
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    #pic5{
+        /* grid-area: pic5; */
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    #pic6{
+        /* grid-area: pic6; */
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    #pic7{
+        /* grid-area: pic7; */
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}
+
+@media screen and (min-width:1024px){
+    #pictures{
+        width:100vw;
+        display: grid;
+        grid-template-columns: 30% 10% 20% 40%;
+        grid-template-rows: 25% 15% 25% 35%;
+        padding: 0 20px;
+        gap: 0.25em;
+    }
+
+    img{
+        height: auto;
+        width: 100%;
+        padding: 0;
+    }
+
+    #pic1{
+        /* grid-area: pic1; */
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    #pic2{
+        /* grid-area: pic2; */
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    #pic3{
+        /* grid-area: pic3; */
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+
+    #pic4{
+        /* grid-area: pic4; */
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    #pic5{
+        /* grid-area: pic5; */
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    #pic6{
+        /* grid-area: pic6; */
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    #pic7{
+        /* grid-area: pic7; */
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}
